@@ -15,9 +15,11 @@ public class JavaApplication27 {
 
 
     public static void main(String[] args) {
-        int b,a;
-        a = Integer.parseInt(JOptionPane.showInputDialog("Introduzca el apotema"));
        
+        JOptionPane.showInputDialog("Para calcular el área del pentágono:");
+        
+       int a = Integer.parseInt(JOptionPane.showInputDialog("Introduzca la apotema"));
+       int l = Integer.parseInt(JOptionPane.showInputDialog("Introduce lado"));
     }
     
 }
