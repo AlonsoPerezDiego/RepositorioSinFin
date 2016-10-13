@@ -22,7 +22,7 @@ public class JavaApplication27 {
        double a = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la apotema"));
        double l = Integer.parseInt(JOptionPane.showInputDialog("Introduce lado"));
        
-       JOptionPane.showMessageDialog(null, "El area del pentágono de lado " + l + "cm y apotema " + a + "cm es igual a " + l*5*a/2 + "cm².");
+       JOptionPane.showMessageDialog(null, "El area del pentáagono de lado " + l + "cm y apotema " + a + "cm es igual a " + l*5*a/2 + "cm².");
 
        
         
