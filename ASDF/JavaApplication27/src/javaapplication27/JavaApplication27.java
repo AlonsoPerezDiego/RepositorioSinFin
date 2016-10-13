@@ -17,11 +17,16 @@ public class JavaApplication27 {
 
     public static void main(String[] args) {
        
-        JOptionPane.showInputDialog("Para calcular el área del pentágono:");
+       JOptionPane.showInputDialog("Para calcular el área del pentágono:");
+       
+       double a = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la apotema"));
+       double l = Integer.parseInt(JOptionPane.showInputDialog("Introduce lado"));
+       
+       JOptionPane.showMessageDialog(null, "El area del pentágono de lado " + l + "cm y apotema " + a + "cm es igual a " + l*5*a/2 + "cm².");
+
+       
         
-       int a = Integer.parseInt(JOptionPane.showInputDialog("Introduzca la apotema"));
-       int l = Integer.parseInt(JOptionPane.showInputDialog("Introduce lado"));
-       JOptionPane.showMessageDialog(null,"El area del pentágono es"+ l*a*5);
+
     }
     
 }
