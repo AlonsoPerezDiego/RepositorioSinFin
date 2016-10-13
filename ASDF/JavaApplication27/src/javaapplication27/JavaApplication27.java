@@ -14,12 +14,15 @@ import javax.swing.JOptionPane;
 public class JavaApplication27 {
 
 
+
     public static void main(String[] args) {
        
         JOptionPane.showInputDialog("Para calcular el área del pentágono:");
         
-       int a = Integer.parseInt(JOptionPane.showInputDialog("Introduzca la apotema"));
-       int l = Integer.parseInt(JOptionPane.showInputDialog("Introduce lado"));
+       double a = Integer.parseInt(JOptionPane.showInputDialog("Introduzca la apotema"));
+       double l = Integer.parseInt(JOptionPane.showInputDialog("Introduce lado"));
+       
+       JOptionPane.showMessageDialog(null, "El area del pentágono de lado " + l + "cm y apotema " + a + "cm es igual a " + l*5*a/2 + "cm².");
     }
     
 }
