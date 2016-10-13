@@ -5,18 +5,19 @@
  */
 package javaapplication27;
 
+import javax.swing.JOptionPane;
+
 /**
  *
- * @author dalonsoperez
+ * @author dalonsoperez y mblancosoto
  */
 public class JavaApplication27 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
-        //Comentario
+        int b,a;
+        a = Integer.parseInt(JOptionPane.showInputDialog("Introduzca el apotema"));
+       
     }
     
 }
