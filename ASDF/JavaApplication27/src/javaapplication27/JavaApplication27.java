@@ -26,7 +26,7 @@ public class JavaApplication27 {
 
        
        JOptionPane.showMessageDialog(null, "El area del pentágono de lado " + l + "cm y apotema " + a + "cm es igual a " + l*5*a/2 + "cm².");
-       JOptionPane.showMessageDialog(null, "El area del hexagono de lado " + l2 + "cm y apotema " + a2 + "cm es igual a " + l*6*a/2 + "cm².");
+       JOptionPane.showMessageDialog(null, "El area del hexagono de lado " + l2 + "cm y apotema " + a2 + "cm es igual a " + l2*6*a2/2 + "cm².");
 
        
         
