@@ -16,7 +16,7 @@ public class JavaApplication27 {
 
 
     public static void main(String[] args) {
-       
+       //A pastar
            JOptionPane.showMessageDialog(null, "Para calcular el área del pentágono y hexagono :");
         
        double a = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la apotema del pentágono"));
